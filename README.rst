@@ -1,6 +1,6 @@
 |PyPI version| |Build Status|
 
-This repository was previously hosted under the `hastexo` GitHub organization, 
+This repository was previously hosted under the `hastexo` GitHub organization,
 and moved to `cleura` in December 2025 as part of a routine repository consolidation.
 
 OLX Utilities
@@ -19,8 +19,8 @@ principle when writing OLX content. It allows you to create templates
 you to
 
 -  define OLX fragments only once, to reuse them as often as you want
-   (this comes in very handy in using the `hastexo
-   XBlock <https://github.com/cleura/hastexo-xblock>`__),
+   (this comes in very handy in using the `stackamole
+   XBlock <https://github.com/cleura/stackamole-xblock>`__),
 -  write courseware content in
    `Markdown <https://en.wikipedia.org/wiki/Markdown>`__,
 -  do anything else you would like to do using your own plugins.
@@ -63,5 +63,5 @@ for details.
 
 .. |PyPI version| image:: https://img.shields.io/pypi/v/olx-utils.svg
    :target: https://pypi.python.org/pypi/olx-utils
-.. |Build Status| image:: https://github.com/cleura/hastexo-xblock/workflows/Python%20package/badge.svg
-   :target: https://github.com/cleura/hastexo-xblock/actions?query=workflow%3A%22Python+package%22
+.. |Build Status| image:: https://github.com/cleura/stackamole-xblock/workflows/Python%20package/badge.svg
+   :target: https://github.com/cleura/stackamole-xblock/actions?query=workflow%3A%22Python+package%22

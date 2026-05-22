@@ -24,8 +24,8 @@ setup(
     description='Utilities for edX OLX courses',
     long_description=open('README.rst').read(),
     url='https://github.com/cleura/olx-utils',
-    author='hastexo',
-    author_email='pypi@hastexo.com',
+    author='stackamole',
+    author_email='pypi@stackamole.com',
     license='AGPL-3.0',
     classifiers=[
         'Development Status :: 3 - Alpha',

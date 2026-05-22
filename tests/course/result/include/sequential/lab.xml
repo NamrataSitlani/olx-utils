@@ -58,28 +58,28 @@
   display_name="${self.lab_html_name()}"/>
 </%block>\
 ##
-## "hastexo" block. Override with no content to disable.
+## "stackamole" block. Override with no content to disable.
 ##
-<%block name="hastexo">
+<%block name="stackamole">
 % if capture(self.conditional):
 ${self.partials.conditional(
-  block_type="hastexo",
+  block_type="stackamole",
   url_name=capture(self.conditional))}
 % endif
-<hastexo
+<stackamole
   display_name="${self.lab_name()}"
   url_name="${self.lab_url()}"
   stack_template_path="hot_lab.yaml"
   stack_user_name="training"
   provider="some-provider">
 ##
-## "hastexo_tests" block.
+## "stackamole_tests" block.
 ##
-<%block name="hastexo_tests" />
+<%block name="stackamole_tests" />
 ##
-## End of hastexo block.
+## End of stackamole block.
 ##
-</hastexo>
+</stackamole>
 % if capture(self.conditional):
 </conditional>
 % endif

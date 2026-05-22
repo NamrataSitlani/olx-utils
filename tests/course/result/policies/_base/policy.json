@@ -11,7 +11,7 @@
     "due": null,
     "giturl": null,
     "course_image": "images_course_image.jpg",
-    "advanced_modules": ["hastexo"],
+    "advanced_modules": ["stackamole"],
     "hide_from_toc": false,
     "ispublic": false,
     "rerandomize": "never",
